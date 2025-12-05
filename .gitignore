@@ -1,0 +1,63 @@
+# Compilación
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+
+# Archivos de usuario y configuración local
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de Visual Studio
+.vs/
+.vscode/
+
+# Paquetes NuGet
+*.nupkg
+*.snupkg
+packages/
+# Excluir solo el contenido generado, no el archivo de configuración
+!packages/*.config
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Archivos de publicación
+publish/
+*.Publish.xml
+
+# Configuración de IIS / Web
+*.dbmdl
+*.jfm
+*.pdb
+
+# Archivos de test y cobertura
+TestResults/
+*.coverage
+*.coveragexml
+*.testsettings
+*.trx
+
+# Archivos generados por herramientas
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Archivos de Rider
+.idea/
+
+# Archivos de estilo y análisis
+*.DotSettings
+
+# Archivos de sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
