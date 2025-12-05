@@ -113,7 +113,7 @@ namespace ProbadorSQL_Pro
 
             // 3. Instancia
             string textoInstancia = string.IsNullOrEmpty(datos.Instancia) ? "(Ninguna)" : datos.Instancia;
-            Console.Write($"Instancia [Actual: {textoInstancia}]: ");
+            Console.Write($"Instancia (Omitir si es 'MSSQLSERVER') [Actual: {textoInstancia}]: ");
             input = Console.ReadLine();
             if (!string.IsNullOrWhiteSpace(input)) datos.Instancia = input;
             if (input?.Trim() == "-") datos.Instancia = ""; // Opción para borrar instancia
